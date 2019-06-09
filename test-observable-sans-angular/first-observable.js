@@ -26,4 +26,17 @@ const obs = new Observable(subscriber => {
 
 obs.subscribe(item => console.log(item));
 
+// observable are not asynchronous
+const obsLikeFunction = new Observable(observer => {
+    observer.next(1);
+    observer.next(2);
+    observer.next(3);
+});
+
+console.log('first');
+
+obsLikeFunction.subscribe(item => console.log(item));
+
+console.log('end');
+
 

@@ -2,6 +2,7 @@ const { Observable, range, of } = require('rxjs');
 const { map, filter } = require('rxjs/operators');
 
 // ===== DISCOVER OBSERVABLE =====
+
 // create observables
 
 const obs = new Observable(subscriber => {
