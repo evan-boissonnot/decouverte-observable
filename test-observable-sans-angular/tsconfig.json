@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "amd",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "removeComments": false,
+        "noImplicitReturns": true,
+        "noImplicitAny": true,
+        "esModuleInterop": true,
+        "preserveConstEnums": true
+    },
+    "exclude": [
+        "logs",
+        "node_modules"
+    ]
+}
